@@ -215,7 +215,7 @@ function render_uploaded() {
         var name = resp.data.url.split('/').pop();
         
         const WPRAW = "https://img.qqqqqq.tk"  //使用wordpress.com加速
-        const PhRAW = "https://telegra.ph"   //原地址
+        const PhRAW = "https://img.58duihuan.com"   //原地址
         const PROXYURL = ""  //自定义加速域名 默认是使用cloudflare
         const BASE_PROXYURL = PROXYURL ? PROXYURL : BASE_URL;
         
