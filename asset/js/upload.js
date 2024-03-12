@@ -15,7 +15,7 @@ $smfile.fileinput({
         return dataObj;
     },
     // allowedFileExtensions: ['jpeg', 'jpg', 'png', 'gif', 'bmp', 'webp'],
-    allowedFileExtensions: ['jpeg', 'jpg', 'png', 'gif', 'bmp', 'mp4', 'mov', 'avi'],
+    allowedFileExtensions: ['yaml','txt','jpeg', 'jpg', 'png', 'gif', 'bmp', 'mp4', 'mov', 'avi'],
     overwriteInitial: false,
     previewFileType: "image",
     maxFileSize: '512000',
@@ -215,7 +215,7 @@ function render_uploaded() {
         var name = resp.data.url.split('/').pop();
         
         const WPRAW = "https://img.qqqqqq.tk"  //使用wordpress.com加速
-        const PhRAW = "https://img.58duihuan.com"   //原地址
+        const PhRAW = ""   //原地址
         const PROXYURL = ""  //自定义加速域名 默认是使用cloudflare
         const BASE_PROXYURL = PROXYURL ? PROXYURL : BASE_URL;
         
